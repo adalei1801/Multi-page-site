@@ -1,0 +1,55 @@
+ body {
+    background-image: url('https://i.pinimg.com/originals/20/77/66/20776607b5924d1607a6a5dc33dc6074.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; 
+    font-family: Cochin, serif;
+  }
+  
+  h1,* {
+    color: aliceblue;
+   }
+
+main {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h1 {
+  letter-spacing: 0.25em;
+  word-spacing: 0.5em;
+}
+
+h1:first-letter {
+  font-size: 2em;
+}
+
+img {
+  width: 40%;
+  margin: 30px;
+}
+nav a {
+text-decoration: none;
+margin: 20px;
+}
+a:hover {
+  background-color: pink;
+  color: yellow; 
+}
+
+a:active {
+  background-color: purple;
+  color: blue;
+}
+
+a[target="_blank"] {
+  color: blueviolet;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+
